@@ -1,0 +1,63 @@
+.institute-dashboard {
+  padding: 24px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #1f2937; /* Tailwind gray-800 */
+}
+
+.institute-dashboard__title {
+  font-size: 2.25rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.institute-dashboard__section {
+  margin-bottom: 2rem;
+}
+
+.institute-dashboard__section-title {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #3b82f6; /* Tailwind blue-500 */
+  padding-bottom: 0.25rem;
+  max-width: max-content;
+}
+
+.students-list {
+  max-width: 400px;
+  border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+  border-radius: 0.375rem; /* rounded-md */
+  overflow: hidden;
+}
+
+.students-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.students-list__item:last-child {
+  border-bottom: none;
+}
+
+.students-list__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.students-list__name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.students-list__email {
+  font-size: 0.875rem;
+  color: #6b7280; /* Tailwind gray-500 */
+}
+
+.students-list__score {
+  font-weight: 700;
+  color: #2563eb; /* Tailwind blue-600 */
+}
